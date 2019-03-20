@@ -1,5 +1,5 @@
 # pull base image
-FROM hub.docker.prod.walmart.com/puckel/docker-airflow
+FROM puckel/docker-airflow:latest
 
 USER root 
 
