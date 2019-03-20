@@ -13,6 +13,5 @@ RUN \
   && ACCEPT_EULA=Y apt-get -y --no-install-recommends install mssql-tools \
   && echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ${AIRFLOW_HOME}/.bash_profile \
   && echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ${AIRFLOW_HOME}/.bashrc \
-  && source ~/.bashrc \
   && apt-get install unixodbc-dev
   
